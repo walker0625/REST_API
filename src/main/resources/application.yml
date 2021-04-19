@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost/movie?serverTimezone=Asia/Seoul&characterEncoding=UTF-8&autoReconnection=true&allowPublicKeyRetrieval=true
+      username: 
+      password:
+
+server:
+  port: 3000
+
+
+
+
+
